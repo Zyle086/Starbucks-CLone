@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: none;
+    border: none;
+    box-sizing: none;
+    font-size: 13px
+}
+
+.logo svg {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: .13rem;
+    margin: .8em 2rem;
+    max-height: 100px;
+    padding: 1rem 0;
+    font-size: 11px;
+}
+
+.right-header{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.left-header{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.find-store-tab{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    gap: .5rem;
+    padding-right: 2rem;
+}
+
+.user-options{
+    display: flex;  
+    flex-direction: row;
+    gap: 2rem;
+}
