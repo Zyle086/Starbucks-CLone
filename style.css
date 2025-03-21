@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     padding: none;
     border: none;
@@ -18,24 +19,27 @@ a{
     text-decoration: none;
 }
 
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    letter-spacing: .13rem;
-    margin: .8em 2rem;
-    max-height: 100px;
-    padding: 1rem 0;
+    height: 60px;
+    padding: 1.2rem 2rem;
     font-size: 11px;
-}
-
-.right-header{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    border-bottom: 1px solid black;
 }
 
 .left-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: .13rem;
+    gap: 2rem;
+
+}
+
+.right-header{
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -45,12 +49,55 @@ a{
     display: flex;
     width: 90%;
     flex-direction: row;
+    align-items: center;
     gap: .5rem;
-    padding-right: 2rem;
+    padding-right: 2.24rem;
+    letter-spacing: .1px;
 }
 
 .user-options{
     display: flex;  
     flex-direction: row;
-    gap: 2rem;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.user-options button{
+    width: 5rem;
+    height: 30px;
+}
+
+/* Buttons */
+
+.user-options button{
+    border: 1px solid   ;
+    border-radius: 25px;
+}
+
+.sign-in-btn {
+    color: black;
+    background-color: white;
+
+}
+
+.join-btn {
+    color: white;
+    background-color: black;
+
+}
+
+/* Animation */
+
+.user-options button:hover {
+    background-color: rgb(44, 161, 44);
+    color: white;
+}
+
+.find-store-tab:hover h3 a{
+    color: rgb(44, 161, 44);
+}
+
+.right-header-items:hover{
+    border-bottom: 5px solid rgb(44, 161, 44);
+    padding-bottom: 2.35rem;
 }
