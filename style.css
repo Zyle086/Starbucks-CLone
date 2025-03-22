@@ -161,3 +161,7 @@ header {
 .right-header-items:hover{
     color: rgb(44, 161, 44);
 }
+
+.view-menu-btn:hover {
+    background-color: rgb(26, 38, 24);
+}
