@@ -228,6 +228,71 @@ header {
     max-width: 500px;
 }
 
+/* Container 6 styles */
+
+.container6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    max-width: 700px;
+    gap: 5rem;
+}
+
+
+/* Grid container */
+
+.lg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.parent-topic {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.children-topic {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    margin: 3rem 2rem;
+    gap: 0 1rem;
+    padding: 3rem 0;
+    padding-left: 6rem;
+    justify-items: flex-start;
+    border: solid black;
+    border-width: 1px 0;
+}
+
+.icon-list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.icon-container svg{
+    width: 40px;
+}
+    
+.text-list {
+    margin: 1.5rem 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 2rem;
+}
+
+
 /* Buttons */
 
 .user-options button{
@@ -265,3 +330,4 @@ header {
 .type1 .view-menu-btn:hover {
     background-color: rgb(26, 38, 24);
 }
+
